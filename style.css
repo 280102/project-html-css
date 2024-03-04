@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.bg-nav {
+  background-color: rgb(50, 124, 179);
+  color: lavender;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+h2 {
+  display: block;
+  font-size: 30px;
+}
+
+.button {
+  margin: 0 20px 0 0;
+}
+
+.button > span {
+  width: 25px;
+  display: flex;
+  border: 1.5px solid;
+  margin: 4px;
+  border-radius: 2px;
+}
+
+#check {
+  position: fixed;
+  z-index: 4;
+  right: 14px;
+  top: 12px;
+  height: 25px;
+  width: 23px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+#check:checked + .kedua {
+  top: 46px;
+  position: fixed;
+}
+
+.kedua {
+  position: fixed;
+  width: 100%;
+  top: -100%;
+  transition: 0.3s;
+  background-color: #ffffff;
+  z-index: 1;
+  margin: 10px 0 5px 0;
+  padding: 5px 0 5px 0;
+  box-shadow: 0 5px 3px rgb(0, 0, 0, 0.1);
+}
+
+.x {
+  position: fixed;
+  right: 10px;
+  top: -35px;
+  text-align: center;
+  margin: 0 10px 0 0;
+  background-color: rgb(14, 67, 182);
+  width: 29px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  background-color: rgb(50, 124, 179, 0.2);
+  width: 94vw;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5px;
+  color: rgb(50, 124, 179);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mlr {
+  margin: 0 10px 0 10px;
+  position: relative;
+  top: 80px;
+}
+
+.wj {
+  color: rgb(0, 0, 0, 0.75);
+  font-weight: 500;
+}
+
+.paragraf {
+  margin-top: 5px;
+}
+
+.overflow-mobil {
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: -4px 4px 3px rgb(0, 0, 0, 0.1);
+  margin: 15px 0 0 0;
+}
+
+.car {
+  height: 200px;
+  border-radius: 10px;
+}
+
+#galeri {
+  margin-bottom: 60px;
+}
+
+.kinggal {
+  margin: 30px 0 30px 0;
+  border-radius: 28px 5px 5px 5px;
+  padding: 0 0 17px 0;
+  box-shadow: -4px 4px 3px rgb(0, 0, 0, 0.1);
+}
+
+.bg-canti {
+  background-color: rgb(50, 124, 179);
+  padding: 8px;
+  color: lavender;
+  border-radius: 30px 30px 0 30px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.fw5 {
+  font-weight: 500;
+}
+
+.flexboxgal1 {
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ggl {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+.gl {
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 90%;
+}
+
+.gl:hover {
+  transform: scale(1.05);
+}
+
+#supportdaerah {
+  margin-bottom: 90px;
+}
+
+.kSupport {
+  margin: 10px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 7px rgb(0, 0, 0, 0.2);
+}
+
+.boxsup {
+  width: 100%;
+}
+
+.txc {
+  text-align: center;
+}
+
+.dr {
+  text-align: center;
+  margin: 7px 0 7px 0;
+}
+
+.tarif {
+  color: rgb(0, 0, 0, 0.75);
+  margin: 25px 0 0 0;
+}
+
+.boxTar {
+  margin: 8px 0 8px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bx-mw {
+  text-align: center;
+}
+
+.bx-mw {
+  width: 380px;
+  border-radius: 5px;
+  border: 2px solid lavender;
+  padding: 5px;
+  box-shadow: 0 3px 0 rgb(50, 124, 179);
+  margin: 5px;
+}
+
+.fa-car {
+  color: rgb(0, 0, 0, 0.8);
+  animation: o 1s;
+}
+
+.fa-solid {
+  font-weight: 900;
+}
+
+del {
+  color: red;
+}
+
+#sub {
+  width: 80%;
+  background-color: lavender;
+  color: black;
+  border: 1px solid rgb(50, 124, 179);
+  border-radius: 5px;
+  margin: 5px 0 5px 0;
+  padding: 5px;
+}
+
+.sub:hover {
+  color: lavender;
+  background-color: rgb(50, 124, 179);
+}
+
+#cg {
+  margin: 0 10px 0 10px;
+}
+
+.testimoni {
+  margin-bottom: 70px;
+}
+
+.kingTesti {
+  border-radius: 28px 5px 5px 5px;
+  box-shadow: -4px 4px 3px rgb(0, 0, 0, 0.1);
+  margin: 25px 0 50px 0;
+}
+
+.box-flowTesti {
+  border-radius: 5px;
+  overflow-x: auto;
+  padding: 10px;
+  margin: 0px 0 25px 0;
+}
+
+.conTes {
+  display: flex;
+  width: 80%;
+}
+
+.fotoTest {
+  border-radius: 5px;
+  width: 100%;
+  height: 50%;
+  margin: 0 5px 0 5px;
+}
+
+.kingConta {
+  background-color: rgb(56, 59, 74);
+  margin: 120px 0 0 0;
+  width: 100%;
+  position: relative;
+}
+
+footer {
+  display: block;
+}
+
+.footMar {
+  margin: 5px 10px 0 10px;
+}
+
+.cenLogoFoot {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 20px 0;
+}
+
+.cenConta {
+  display: flex;
+  justify-content: center;
+}
+
+.contaFoot {
+  background-color: lavender;
+  color: rgb(50, 124, 179);
+  border-radius: 5px;
+  margin: 5px 0 5px 0;
+  padding: 8px;
+}
+
+.peta {
+  width: 90%;
+}
+
+.kingsos {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin: 20px 0 20px 0;
+}
+
+.kingcopy {
+  padding: 3px 0 10px 0;
+}
+
+.copyr {
+  text-align: center;
+  color: lavender;
+  font: 13px;
+}
+
+.copyr > a {
+  color: rgb(50, 124, 179);
+}
+
+.conWa {
+  position: fixed;
+  right: 15px;
+  top: 80%;
+}
+
+.gb-wa {
+  cursor: pointer;
+}
+
+.dropTop {
+  position: fixed;
+  right: 15px;
+  top: 89%;
+  margin: 0 0 20px 0;
+}
+
+.dropTop > a {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 0 3px 0 rgb(50, 124, 179);
+}
